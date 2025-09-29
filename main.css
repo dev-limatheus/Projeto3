@@ -26,10 +26,10 @@ body{
 
 }
 
-.section-title span{
-    color: #e15f41;
-}
-
 #sobre-restaurante{
     background-color: #ffeae6;
+}
+
+.text-colored{
+    color: #e15f41;
 }
