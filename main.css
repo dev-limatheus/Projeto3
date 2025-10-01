@@ -4,28 +4,32 @@ body{
 
 #carousel img{
     width: 100%;
-    height: 100%;
+    max-height: 600px;
 }
 
 .navbar {
-    background-color: #b30101;
-    border: 3px solid #000;
+    background-color: #000000;
+    border-bottom: 3px solid #b30101;
+}
+
+.navbar img {
+    width: 26px;
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color:#000000;
+    background-color:#ff0000;
     color: #ffffff;
 }
 
 #cabecalho .nav .nav-link, 
 .navbar-brand,
 .navbar-brand:hover,
-.nav-cardapio .nav-link.active:hover {
-    color: #000000;
+.nav-catalogo .nav-link.active:hover {
+    color: #ffffff;
 }
 
 .navbar-toggler{
-    background-color: #000000;
+    background-color: #ffffff;
 }
 
 .section-title {
@@ -33,23 +37,25 @@ body{
 
 }
 
+
 #sobre-loja,
-#cardapio{
-    background-color: #927a75;
+#catalogo{
+    background-color: #000000;
+    color: #fff;
 }
 
 .text-colored{
     color: #b30101;
 }
 
-.nav-cardapio .nav-link.active,
+.nav-catalogo .nav-link.active,
 #fale-conosco button{
     background-color: #b30101;
     color: #fff;
 }
 
-.nav-cardapio .nav-link:hover{
-    color: #000000;
+.nav-catalogo .nav-link:hover{
+    color: #ffffff;
 }
 
 .social-links li{
