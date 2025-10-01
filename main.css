@@ -2,48 +2,54 @@ body{
     font-family: Roboto, sans-serif;
 }
 
+#carousel img{
+    width: 100%;
+    height: 100%;
+}
+
 .navbar {
-    background-color: #e15f41;
+    background-color: #b30101;
+    border: 3px solid #000;
 }
 
 #cabecalho .nav .nav-link.active {
-    background-color:#fff;
-    color: #e15f41;
+    background-color:#000000;
+    color: #ffffff;
 }
 
 #cabecalho .nav .nav-link, 
 .navbar-brand,
 .navbar-brand:hover,
 .nav-cardapio .nav-link.active:hover {
-    color: #fff;
+    color: #000000;
 }
 
 .navbar-toggler{
-    background-color: #ffeae6;
+    background-color: #000000;
 }
 
 .section-title {
-    font-family: Pacifico, cursive;
+    font-family: "Titan One", sans-serif;
 
 }
 
-#sobre-restaurante,
+#sobre-loja,
 #cardapio{
-    background-color: #ffeae6;
+    background-color: #927a75;
 }
 
 .text-colored{
-    color: #e15f41;
+    color: #b30101;
 }
 
 .nav-cardapio .nav-link.active,
 #fale-conosco button{
-    background-color: #e15f41;
+    background-color: #b30101;
     color: #fff;
 }
 
 .nav-cardapio .nav-link:hover{
-    color: #e15f41;
+    color: #000000;
 }
 
 .social-links li{
